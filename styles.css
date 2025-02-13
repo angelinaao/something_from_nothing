@@ -1,0 +1,57 @@
+*{margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden; 
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 35vh;
+    margin-left: 12vw;
+    font-size: 3.8vh;
+}
+h1{
+    color: white;
+    font-family: "p22-operina-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 60vh;
+    margin-top: -50vh;
+    margin-bottom: -55vh;
+    
+}
+h2{
+    color: white;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-left: 38vw;
+    font-size: 3.8vh;
+    
+}
+h3{
+    color: #8C9E49;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 33vh;
+    text-decoration: none;
+
+}
+h3:hover{
+    color: white;
+    cursor: pointer;
+    
+}

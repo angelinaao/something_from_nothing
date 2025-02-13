@@ -1,0 +1,279 @@
+*{margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden; 
+}
+body{
+  
+   
+}
+.clock{
+    background-color:#0B0618;
+    height: 864px;
+}
+.morning{
+    background-color: #D87213;
+    padding: 6vh;
+}
+.first{
+    text-align: left;
+    font-size: 8vh;
+    padding-top: 4vh;
+}
+.second{
+    text-align: right;
+    font-size: 7.5vh;
+    padding-top: 4vh;
+}
+.third{
+    text-align: left;
+    font-size: 7vh;
+    padding-top: 4vh;
+}
+.top-morning{
+    color:#F4D35E ;
+    font-family: "Lancelot", serif;
+    font-weight: 200;
+    font-style: normal;        
+}
+.timeline-morning{
+    display: flex;
+    flex-direction: row;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 6vh;
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+    color: #E19859;
+  }
+  .fourth{
+    text-align: right;
+    font-size: 5.5vh;
+    padding-top: 4vh;
+    color:#F4D35E ;
+    font-family: "Lancelot", serif;
+    font-weight: 200;
+    font-style: normal;      
+  }
+
+.afternoon{
+    background-color: #BF5223;
+}
+.one-after{
+    font-size: 5.5vh;
+  
+}
+.two-after{
+    text-align: right;
+    font-size: 5.4vh;
+    margin-top: -5.7vh;
+}
+.three-after{
+    font-size: 5.3vh;
+    margin-top: -5.7vh;
+}
+.four-after{
+    text-align: right;
+    font-size: 5.2vh;
+    margin-top: -5.7vh;
+}
+.five-after{
+    font-size: 5.1vh;
+    margin-top: -5.7vh;
+}
+.six-after{
+    text-align: right;
+    font-size: 5vh;
+    margin-top: -5.7vh;
+}
+.seven-after{
+    font-size: 4.9vh;
+    margin-top: -5.7vh;
+}
+.eight-after{
+    text-align: right;
+    font-size: 4.8vh;
+    margin-top: -5.7vh;
+}
+.nine-after{
+    font-size: 4.6vh;
+    margin-top: -5vh;
+}
+.ten-after{
+    text-align: right;
+    font-size: 4.4vh;
+    margin-top: -4.5vh;
+}
+.afternoon{
+    padding: 6vh;
+    color:#fcb253 ;
+    font-family: "Lancelot", serif;
+    font-weight: 200;
+}
+.timeline-after{
+    display: flex;
+    flex-direction: row;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 6vh;
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+  }
+  .evening{
+    background-color: #661B1B;
+    font-family: "Lancelot", serif;
+    font-weight: 200;
+    color:#da5e5e ;
+    padding: 6vh;
+  }
+  .one-even{
+    font-size: 4vh;
+  }
+  .two-even{
+    font-size: 3.8vh;
+    margin-left: 24vw;
+    margin-top:  5vh;
+  }
+  .three-even{
+    text-align: right;
+    font-size: 3.5vh;
+  }
+  .timeline-even{
+    display: flex;
+    flex-direction: row;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 6vh;
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+  }
+  .even-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 29vh;
+  }
+  .felt{
+    font-size: 3vh;
+   
+  }
+  .alone{
+    font-size: 3vh;
+    margin-left: 82vw;
+  }
+
+.night{
+    background-color:#050937 ;
+    color: #89B9CF;
+    padding: 6vh;
+    font-family: "Lancelot", serif;
+    font-weight: 200;
+}
+.tright-night{
+    margin-left: 8vw;
+}
+.top-container-night{
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-container-night{
+    font-size: 2.5vh;
+    margin-top: 38vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 57vw;
+    padding-bottom: 8vh;
+}
+.timeline-night{
+    display: flex;
+    flex-direction: row;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 6vh;
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+}
+.bright-night{
+    margin-left: 8vw;
+}
+.footer{
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #0B0618;
+    text-align: center;
+    color: aliceblue;
+}
+.back{
+    padding: 3vh;
+}
+.clock-container{
+    text-align: center;
+    align-items: center;
+    background-color:#0B0618 ;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 6vh;
+    padding: 6vh;
+    column-gap: 2vh;
+   
+}
+.layer-one{
+    color: #615959;
+}
+.layer-two{
+    display: flex;
+    flex-direction: row;
+    color: #615959;
+    align-items: center;
+    justify-content: center;
+    gap: 19vh;
+}
+.layer-three{
+    display: flex;
+    flex-direction: row;
+    color: #615959;
+    align-items: center;
+    justify-content: center;
+    gap: 28vh;
+
+}
+.layer-four{
+    display: flex;
+    flex-direction: row;
+    color: #615959;
+    align-items: center;
+    justify-content: center;
+    gap: 36vh;
+}
+.layer-five{
+    display: flex;
+    flex-direction: row;
+    color: #615959;
+    align-items: center;
+    justify-content: center;
+    gap: 28vh;
+}
+.layer-six{
+    display: flex;
+    flex-direction: row;
+    color: #615959;
+    align-items: center;
+    justify-content: center;
+    gap: 19vh;
+}
+.layer-seven{
+    color: #615959;
+}
