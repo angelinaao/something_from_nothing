@@ -17,17 +17,49 @@ p{
 }
 .toc{
     color: white;
-     font-family: "p22-operina-pro", sans-serif;
-    font-weight: 400;
+     
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
-    text-align: center;
-    font-size: 50vh;
-    width: 100vw;
+    
+    font-size: 50px;
+
  margin-top: 0;
  padding: 0;
- line-height: 0.5;
- 
+ /* line-height: 0.5; */
+ text-align: right;
+ height: 50px;
+ display: inline-block;
+ vertical-align: middle;
+ padding: 10px 0;
 }
-.section{
-    margin-top: 80vh;
+
+.toc:hover{
+    cursor: pointer;
+}
+
+.toc-links{
+    /* line-height: 500%; */
+    padding: 0px;
+    /* height: 100%;
+    width: 100%; */
+}
+
+
+#toc-container{
+    /* margin-top: 45vh;
+    margin-left: 60vw;
+   */
+   position: absolute;
+   bottom: 50px;
+   right: 50px;
+}
+.timeline:hover{
+    color: blue;
+    cursor: pointer;
+}
+.analysis:hover{
+    color: rgb(0, 255, 195);
+    cursor: pointer;
 }
