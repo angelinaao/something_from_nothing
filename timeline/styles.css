@@ -69,19 +69,19 @@ html{
 }
   .line-three{
     border-left: solid #E19859;
-    height: 79.5vh;
+    height: 52vh;
 }
 .line-five{
     border-left: solid #E19859;
-    height: 10vh;
+    height: 8vh;
 }
 .line-seven{
     border-left: solid #E19859;
-    height: 20vh;
+    height: 25vh;
 }
 .line-nine{
     border-left: solid #E19859;
-    height: 10vh;
+    height: 4vh;
 }
   .fourth{
     text-align: right;
@@ -93,11 +93,7 @@ html{
     font-style: normal;      
   }
 
-.afternoon{
-    
-    background-image: linear-gradient(#B54A1B,#661B1B);
-   
-}
+
 .one-after{
     font-size: 5.5vh;
   
@@ -106,6 +102,7 @@ html{
     text-align: right;
     font-size: 5.4vh;
     margin-top: -5.7vh;
+    margin-left: 42.5vw;
 }
 .three-after{
     font-size: 5.3vh;
@@ -149,32 +146,40 @@ html{
     background-image: linear-gradient(#B54A1B,#661B1B);
     font-family: "Lancelot", serif;
     font-weight: 200;
-    padding-left: 10vw;
+    display: flex;
+    flex-direction: row;
     padding-top: 6vh;
     padding-right: 6vh;
     padding-bottom: 6vh;
+    padding-left: 3vw;
 }
 .timeline-after{
-    display: flex;
-    flex-direction: row;
+
     font-family: "Kode Mono", serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
-    font-size: 6vh;
-    padding-bottom: 8vh;
-    padding-top: 8vh;
+    font-size: 4.5vh;
+
+  
+    color: #E19859;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .evening{
     
     font-family: "Lancelot", serif;
     font-weight: 200;
     color:#da5e5e ;
-    padding-left: 10vw;
+    padding-left: 3vw;
     padding-top: 6vh;
-    padding-right: 6vh;
+
     padding-bottom: 6vh;
     background-image: linear-gradient(#631414,#060938);
+    display: flex;
+    flex-direction: row;
   }
   .one-even{
     font-size: 4vh;
@@ -187,22 +192,28 @@ html{
   .three-even{
     text-align: right;
     font-size: 3.5vh;
+    margin-right: 0vw;
+    margin-top: 35vh;
   }
   .timeline-even{
-    display: flex;
-    flex-direction: row;
-    font-family: "Kode Mono", serif;
+   
+ font-family: "Kode Mono", serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 6vh;
-    padding-bottom: 8vh;
-    padding-top: 8vh;
+    font-size: 4.5vh;
+
+  
+    color: #E19859;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .even-container{
     display: flex;
     flex-direction: row;
-    margin-top: 29vh;
+    margin-top: 50vh;
   }
   .felt{
     font-size: 3vh;
@@ -210,19 +221,21 @@ html{
   }
   .alone{
     font-size: 3vh;
-    margin-left: 82vw;
+    margin-left: 71vw;
   }
 
 .night{
   
     color: #89B9CF;
-    padding-left: 10vw;
+    padding-left: 3vw;
     padding-top: 6vh;
-    padding-right: 6vh;
+  
     padding-bottom: 6vh;
     font-family: "Lancelot", serif;
     font-weight: 200;
     background-image: linear-gradient(#02052C,#01010B);
+    display: flex;
+    flex-direction: row;
 }
 .tright-night{
     margin-left: 8vw;
@@ -234,22 +247,22 @@ html{
 }
 .bottom-container-night{
     font-size: 2.5vh;
-    margin-top: 38vh;
+    margin-top: 64vh;
     display: flex;
     flex-direction: row;
-    margin-left: 57vw;
+    margin-left: 46vw;
     padding-bottom: 8vh;
 }
 .timeline-night{
-    display: flex;
-    flex-direction: row;
-    font-family: "Kode Mono", serif;
+   font-family: "Kode Mono", serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 6vh;
-    padding-bottom: 8vh;
-    padding-top: 8vh;
+    font-size: 4.5vh;
+    color: #E19859;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .bright-night{
     margin-left: 8vw;
@@ -263,7 +276,7 @@ html{
     text-align: center;
     color: aliceblue;
 }
-.back{
+#back{
     padding: 3vh;
 }
 .clock-container{
@@ -278,7 +291,7 @@ html{
     padding: 6vh;
     column-gap: 2vh;
     padding-top: 10vh;
-   
+   padding-bottom: 8vh;
    
 }
 
@@ -347,7 +360,7 @@ html{
     
 }
 #nine:hover{
-    color: #D87213;
+    color: #FCD134;
     
 }
 #six{
@@ -388,7 +401,7 @@ hr#solid{
 
 }
 #nine-box{
-    color: #D87213;
+    color: #FCD134;
     font-family: "Lancelot", serif;
     font-weight: 200;
     font-size: 2vh;
@@ -409,4 +422,202 @@ hr#solid{
     font-weight: 200;
     font-size: 2vh;
   
+}
+.bottom-after{
+    margin-left: 3vw;
+}
+
+
+.line-onea{
+    border-left: solid #E19859;
+    height: 5.9vh;
+}
+  .line-threea{
+    border-left: solid #E19859;
+    height: 25vh;
+}
+.line-fivea{
+    border-left: solid #E19859;
+    height: 78.5vh;
+}
+.line-sevena{
+    border-left: solid #E19859;
+    height: 25.5vh;
+}
+.line-ninea{
+    border-left: solid #E19859;
+    height: 13vh;
+}
+#ninee{
+color: #E19859;
+}
+#ninee:hover{
+    color: #FCD134;
+    }
+#threee{
+    color: #E19859;
+}
+#threee:hover{
+    color: #F5811B;
+}
+.six-numbere{
+    color: #C74646;
+}
+#twelvee{
+    color: #E19859;
+}
+#twelvee:hover{
+    color: #89B9CF;
+}
+.line-onee{
+    border-left: solid #E19859;
+    height: 5.9vh;
+}
+  .line-threee{
+    border-left: solid #E19859;
+    height: 25vh;
+}
+.line-fivee{
+    border-left: solid #E19859;
+    height: 8.5vh;
+}
+.line-sevene{
+    border-left: solid #E19859;
+    height: 46.5vh;
+}
+.line-ninee{
+    border-left: solid #E19859;
+    height: 13vh;
+}
+
+.evening-container{
+    margin-left: 3vw;
+}
+#ninen{
+    color: #E19859;
+    }
+    #ninen:hover{
+        color: #FCD134;
+        }
+    #threen{
+        color: #E19859;
+    }
+    #threen:hover{
+        color: #F5811B;
+    }
+    #six-numbern{
+        color: #E19859;
+    }
+    #six-numbern:hover{
+        color: #C74646;
+    }
+
+    .twelven{
+        color: #89B9CF;
+    }
+    .line-onen{
+        border-left: solid #E19859;
+        height: 5.9vh;
+    }
+      .line-threen{
+        border-left: solid #E19859;
+        height: 5vh;
+    }
+    .line-fiven{
+        border-left: solid #E19859;
+        height: 8.5vh;
+    }
+    .line-sevenn{
+        border-left: solid #E19859;
+        height: 10.5vh;
+    }
+    .line-ninen{
+        border-left: solid #E19859;
+        height: 33vh;
+    }
+    .threea{
+        color: #F5811B;
+    }
+    .night-container{
+        margin-left:3vw ;
+    }
+ 
+        #twelve a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #nine a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #three a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #six a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #back a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #six-numbern a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #threen a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #ninen a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #twelvee a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #threee a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #ninee a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #twelvea a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #six-numbera a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #ninea a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #six-number a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #three a{
+            text-decoration: none;
+            color: inherit;
+        }
+#twelvea:hover{
+    color:#89B9CF;
+}
+#six-numbera:hover{
+    color:#C74646;
+}
+#ninea:hover{
+    color:#FCD134;
+}
+#six-number:hover{
+    color:#C74646;
+}
+#back:hover{
+    color: #89B9CF;
 }

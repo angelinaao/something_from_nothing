@@ -40,10 +40,12 @@ p{
 }
 
 .toc-links{
-    /* line-height: 500%; */
+    line-height: 8vh;
     padding: 0px;
     /* height: 100%;
     width: 100%; */
+    text-align: right;
+    padding-bottom: 10vh;
 }
 
 
@@ -56,7 +58,7 @@ p{
    right: 50px;
 }
 .timeline:hover{
-    color: blue;
+    color: #FCD134;
     cursor: pointer;
 }
 .analysis:hover{
