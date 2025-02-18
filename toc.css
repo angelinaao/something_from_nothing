@@ -58,10 +58,14 @@ p{
    right: 50px;
 }
 .timeline:hover{
-    color: #FCD134;
+    color: #89B9CF;
     cursor: pointer;
 }
 .analysis:hover{
-    color: rgb(0, 255, 195);
+    color: #8C9E49;
+    cursor: pointer;
+}
+.literature:hover{
+    color: #E1629B;
     cursor: pointer;
 }

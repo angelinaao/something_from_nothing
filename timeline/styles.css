@@ -290,7 +290,7 @@ html{
     font-size: 6.5vh;
     padding: 6vh;
     column-gap: 2vh;
-    padding-top: 10vh;
+    padding-top: 4vh;
    padding-bottom: 8vh;
    
 }
@@ -621,4 +621,31 @@ color: #E19859;
 }
 #back:hover{
     color: #89B9CF;
+}
+#nava-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    padding: 3vh;
+    padding-left: 3vw;
+    gap: 2vh;
+    text-align: center;
+    justify-content: center;
+    
+}
+.nava-text{
+    color: white;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+.nava-textt{
+    color: white;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   margin-right: 2vw;
 }
