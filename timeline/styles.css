@@ -352,6 +352,7 @@ html{
 #twelve{
     color: #1e4659;
 }
+
 #three{
     color: #9f3f16;
 }
@@ -641,6 +642,14 @@ color: #E19859;
     font-style: normal;
    
 }
+.nava-texta{
+    color: white;
+    font-family: "Kode Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   
+}
 .nava-textt{
     color: white;
     font-family: "Kode Mono", serif;
@@ -648,4 +657,25 @@ color: #E19859;
     font-weight: 500;
     font-style: normal;
    margin-right: 2vw;
+}
+.nava-text a{
+    text-decoration: none;
+    color: inherit;
+}
+.nava-textt a{
+    text-decoration: none;
+    color: inherit;
+}
+#one:hover{
+    color: #3f496e;
+}
+#three-hover:hover{
+    color: #8C9E49;
+}
+#four:hover{
+    color: #E1629B;
+}
+
+#two:hover{
+    color: #E19859;
 }

@@ -251,3 +251,16 @@ color: #F4D35E;
     align-items: center;
     gap: 1vw;
 }
+.nava-text a{
+    text-decoration: none;
+    color: inherit;
+}
+#three:hover{
+color: #8C9E49;
+}
+#two:hover{
+    color: #E1629B;
+    }
+#one:hover{
+    color: white;
+    }

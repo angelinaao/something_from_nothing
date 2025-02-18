@@ -418,3 +418,24 @@ gap: 1vw;
 .six-orangen{
     color: #3f7189;
 }
+.nava-text a{
+    text-decoration: none;
+    color: inherit;
+}
+.navt-text a{
+    text-decoration: none;
+    color: inherit;
+}
+.navn-text a{
+    text-decoration: none;
+    color: inherit;
+}
+#three:hover{
+    color: #E1629B;
+    }
+    #two:hover{
+        color: #8C9E49;
+        }
+    #one:hover{
+        color: white;
+        }
