@@ -131,7 +131,8 @@ color: #F4D35E;
     display: flex;
     flex-direction: row;
     gap: 2vh;
-    position: fixed;  
+    position: fixed; 
+    font-size: 2vh; 
 }
 
 .nava-text{

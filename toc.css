@@ -9,11 +9,11 @@ body{
 }
 p{
     color: #8C9E49;
-    width: 35vw;
+    width: 31vw;
     padding-top: 10vh;
     padding-left: 10vh;
     font-family: "Akidenz Grotesk", sans-serif;
-    font-size: 1.5vh;
+    font-size: 1.7vh;
 }
 .toc{
     color: white;
@@ -23,7 +23,7 @@ p{
     font-weight: 500;
     font-style: normal;
     
-    font-size: 50px;
+    font-size: 5.3vh;
 
  margin-top: 0;
  padding: 0;

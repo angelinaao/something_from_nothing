@@ -198,6 +198,7 @@ margin-bottom: 3vw;
     flex-direction: row;
     gap: 2vh;
      position: fixed; 
+     font-size: 2vh;
 }
 .nave-container{
     background-color: #320E0E;
@@ -208,6 +209,7 @@ margin-bottom: 3vw;
     gap: 2vh;
     position: sticky;
     top: 0;
+    font-size: 2vh;
      
 }
 .navn-container{
@@ -219,6 +221,7 @@ margin-bottom: 3vw;
     gap: 2vh;
     position: sticky;
     top: 0;
+    font-size: 2vh;
      
 }
 .line-one{

@@ -52,7 +52,7 @@ html{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 4.5vh;
+    font-size: 3vh;
     padding-top: 4.4vh;
   
     color: #E19859;
@@ -81,7 +81,7 @@ html{
 }
 .line-nine{
     border-left: solid #E19859;
-    height: 4vh;
+    height: 11vh;
 }
   .fourth{
     text-align: right;
@@ -129,7 +129,7 @@ html{
 .eight-after{
     text-align: right;
     font-size: 4.8vh;
-    margin-top: -5.7vh;
+    margin-top: -5.3vh;
 }
 .nine-after{
     font-size: 4.6vh;
@@ -159,7 +159,7 @@ html{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 4.5vh;
+    font-size: 3vh;
 
   
     color: #E19859;
@@ -176,7 +176,7 @@ html{
     padding-left: 3vw;
     padding-top: 6vh;
 
-    padding-bottom: 6vh;
+    padding-bottom: 8vh;
     background-image: linear-gradient(#631414,#060938);
     display: flex;
     flex-direction: row;
@@ -201,7 +201,7 @@ html{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 4.5vh;
+    font-size: 3vh;
 
   
     color: #E19859;
@@ -213,7 +213,7 @@ html{
   .even-container{
     display: flex;
     flex-direction: row;
-    margin-top: 50vh;
+    margin-top: 43vh;
   }
   .felt{
     font-size: 3vh;
@@ -228,9 +228,9 @@ html{
   
     color: #89B9CF;
     padding-left: 3vw;
-    padding-top: 6vh;
+    padding-top: 8vh;
   
-    padding-bottom: 6vh;
+ 
     font-family: "Lancelot", serif;
     font-weight: 200;
     background-image: linear-gradient(#02052C,#01010B);
@@ -258,7 +258,7 @@ html{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 4.5vh;
+    font-size: 3vh;
     color: #E19859;
     display: flex;
     flex-direction: column;
@@ -447,7 +447,7 @@ hr#solid{
 }
 .line-ninea{
     border-left: solid #E19859;
-    height: 13vh;
+    height: 21vh;
 }
 #ninee{
 color: #E19859;
@@ -535,7 +535,7 @@ color: #E19859;
     }
     .line-ninen{
         border-left: solid #E19859;
-        height: 33vh;
+        height: 40vh;
     }
     .threea{
         color: #F5811B;
