@@ -8,6 +8,7 @@ html{
   
    
 } */
+:root { scroll-behavior: smooth; }
 .clock{
     background-color:#0B0618;
     height: 864px;
@@ -101,7 +102,7 @@ html{
 .two-after{
     text-align: right;
     font-size: 5.4vh;
-    margin-top: -5.7vh;
+    margin-top: -5.8vh;
     margin-left: 42.5vw;
 }
 .three-after{
@@ -124,7 +125,7 @@ html{
 }
 .seven-after{
     font-size: 4.9vh;
-    margin-top: -5.7vh;
+    margin-top: -5.4vh;
 }
 .eight-after{
     text-align: right;
@@ -278,6 +279,9 @@ html{
 }
 #back{
     padding: 3vh;
+    color: #665e5e;
+    background-color: #000000;
+  
 }
 .clock-container{
     text-align: center;
@@ -351,13 +355,16 @@ html{
 }
 #twelve{
     color: #1e4659;
+    font-weight: 500;
 }
 
 #three{
     color: #9f3f16;
+    font-weight: 500;
 }
 #nine{
     color: #a7692e;
+    font-weight: 500;
     
 }
 #nine:hover{
@@ -366,17 +373,31 @@ html{
 }
 #six{
     color: #661B1B;
+    font-weight: 500;
 }
 #twelve:hover{
     color:  #89B9CF;
     cursor: pointer;
    
 }
+#twelve-number:hover{
+    color:  #89B9CF;
+    cursor: pointer;
+   
+}
 .nine{
     color:#FCD134
+
+    
 }
 
 #three:hover{
+    color:   #BF5223;
+    cursor: pointer;
+    
+    
+}
+#three-number:hover{
     color:   #BF5223;
     cursor: pointer;
     
@@ -415,6 +436,7 @@ hr#solid{
     font-family: "Lancelot", serif;
     font-weight: 200;
     font-size: 2vh;
+    opacity: 0%;
     
 }
 #six-box{
@@ -422,6 +444,7 @@ hr#solid{
     font-family: "Lancelot", serif;
     font-weight: 200;
     font-size: 2vh;
+    opacity: 0%;
   
 }
 .bottom-after{
@@ -563,6 +586,8 @@ color: #E19859;
         #back a{
             text-decoration: none;
             color: inherit;
+         
+     
         }
         #six-numbern a{
             text-decoration: none;
@@ -604,7 +629,12 @@ color: #E19859;
             text-decoration: none;
             color: inherit;
         }
-        #three a{
+        
+        #three-number a{
+            text-decoration: none;
+            color: inherit;
+        }
+        #twelve-number a{
             text-decoration: none;
             color: inherit;
         }
@@ -635,7 +665,7 @@ color: #E19859;
     
 }
 .nava-text{
-    color: white;
+    color: #665e5e;
     font-family: "Kode Mono", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -651,7 +681,7 @@ color: #E19859;
    
 }
 .nava-textt{
-    color: white;
+    color: #665e5e;
     font-family: "Kode Mono", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -678,4 +708,7 @@ color: #E19859;
 
 #two:hover{
     color: #E19859;
+}
+.eleven{
+    font-weight: lighter;
 }

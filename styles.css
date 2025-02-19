@@ -37,6 +37,7 @@ h2{
     text-align: center;
     margin-left: 38vw;
     font-size: 3.8vh;
+    margin-top: 2vh;
     
 }
 h3{
@@ -46,12 +47,12 @@ h3{
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    margin-top: 33vh;
+    margin-top: 31vh;
     text-decoration: none;
     
 
 }
-h3 a{
+a{
     text-decoration: none;
             color: inherit;
 }

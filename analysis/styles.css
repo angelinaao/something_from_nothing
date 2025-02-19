@@ -1,6 +1,7 @@
 *{margin: 0px;
     box-sizing: border-box;
 }
+:root { scroll-behavior: smooth; }
 html{
     overflow-x: hidden; 
 }
@@ -19,9 +20,26 @@ body{
 .twelve{
     background-color: #110721;
 }
-.twelve-orange{
+#twelve-orange{
     margin-right: 50vw;
 }
+#twelve-orange:hover{
+    color:  #89B9CF;
+    cursor: pointer;
+}
+#twelve-oranget:hover{
+    color:  #89B9CF;
+    cursor: pointer;
+}
+#twelve-oranget{
+    color: #bd6139;
+}
+
+#twelve-orange a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .twelve-orangen{
     color:#89B9CF
 }
@@ -88,7 +106,7 @@ body{
 .text-three{
     font-family: "Akidenz Grotesk", sans-serif;
     font-size: 1.7vh;
-    color: #874068;
+    color: #da5e5e;
    
   
     margin-right: 3vw;
@@ -98,7 +116,7 @@ body{
 .text-three-middle{
     font-family: "Akidenz Grotesk", sans-serif;
     font-size: 1.7vh;
-    color: #874068;
+    color: #da5e5e;
 
     margin-top: 1.5vw;
     margin-right: 3vw;
@@ -200,7 +218,7 @@ margin-bottom: 3vw;
      position: fixed; 
      font-size: 2vh;
 }
-.nave-container{
+#nave-container{
     background-color: #320E0E;
     padding: 3vh;
     padding-left: 3vw;
@@ -210,9 +228,13 @@ margin-bottom: 3vw;
     position: sticky;
     top: 0;
     font-size: 2vh;
+    text-decoration: none;
+    color: inherit;
      
 }
-.navn-container{
+
+
+#navn-container{
     background-color: #010316;
     padding: 3vh;
     padding-left: 3vw;
@@ -259,7 +281,7 @@ margin-bottom: 3vw;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    color: #E19859;
+    color: #bd6139;;
     gap: 0.5vw;
 
 }
@@ -271,7 +293,7 @@ margin-bottom: 3vw;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    color: #E19859;
+    color: #bd6139;;
     gap: 0.5vw;
 }
 .nav-timeline-three{
@@ -315,6 +337,16 @@ margin-bottom: 3vw;
 .three-orange{
     color: #F5811B;
     font-weight: 500;
+}
+
+.three-oranget:hover{
+    color: #F5811B;
+    cursor: pointer;
+    
+}
+.three-oranget{
+    color: #bd6139;
+    
 }
 
 .line-onet{
@@ -372,7 +404,7 @@ margin-bottom: 3vw;
     color: #496B7A;
 }
 .six-oranget{
-    color: #874068;
+    color: #da5e5e;;
     font-weight: 600;
 }
 .three-bottom-analysis{
@@ -418,8 +450,16 @@ gap: 1vw;
 .three-orangen{
     color: #3f7189;
 }
+.three-orangen:hover{
+    color: #F5811B;
+    cursor: pointer;
+}
 .six-orangen{
     color: #3f7189;
+}
+.six-orangen:hover{
+    color: #da5e5e;
+    cursor: pointer;
 }
 .nava-text a{
     text-decoration: none;
@@ -442,3 +482,18 @@ gap: 1vw;
     #one:hover{
         color: white;
         }
+
+#six-orange:hover{
+    color: #da5e5e;
+  
+}
+#six-orange a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+#twelve-oranget a{
+    text-decoration: none;
+    color: inherit;
+    
+}
