@@ -1,6 +1,8 @@
 body{
     background-color: black;
+
 }
+
 h1{
     color: white;
     font-family: "Kode Mono", serif;
@@ -8,17 +10,16 @@ h1{
     font-weight: 500;
     font-style: normal;
     text-align: left;
-    width: 50vw;
-    margin-left: 27vw;
-    margin-top: 34vh;
+    width: 600px;
+
     font-size: 3.9vh;
 }
 p{
     color: #8C9E49;
-    width: 27vw;
+    width: 350px;
     font-family: "Akidenz Grotesk", sans-serif;
     font-size: 1.5vh;
-    margin-left: 48vw;
+    margin-left: 330px;
     margin-top: -5.8vh;
 }
 h3{
@@ -40,4 +41,12 @@ h3:hover{
     color: white;
     cursor: pointer;
     
+}
+.container{
+    display: flex;
+    width: 100vw;
+margin-top: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
